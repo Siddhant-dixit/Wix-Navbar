@@ -1,0 +1,41 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    display: block;
+    height: 72px;
+}
+
+.header{
+    letter-spacing: 0;
+    position: relative;
+    width: 1366px;
+    height: 72px;
+    z-index: 9999;
+}
+
+.wrapper{
+    display: flex;
+    position: relative;
+    align-items: center;
+    background: #fff;
+    height: 72px;
+    padding: 0 30px;
+}
+
+.logo a{
+    font-size: 50px;
+    color: black;
+    display: flex;
+}
